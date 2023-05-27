@@ -1,0 +1,51 @@
+.board {
+    width: 637px;
+    height: 637px;
+    background: slategray;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background: gray;
+    border: 1px solid black;
+    display: flex;
+}
+
+.mark {
+    margin: auto;
+}
+
+.statusBar {
+    width: 800px;
+    height: 150px;
+    background: black;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.statusText {
+    margin: 0;
+    color: white;
+}
+
+.bgRed {
+    background: red;
+}
+
+.bgBlue {
+    background: blue;
+}
+
+.textRed {
+    color: red;
+}
+
+.textBlue {
+    color: blue;
+}
